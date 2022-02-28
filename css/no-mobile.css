@@ -1,6 +1,6 @@
 #splash-screen {
   position: absolute;
-  z-index: 99;
+  z-index: 98;
   height: 100vh;
   width: 100vw;
   background-color: #04cf5c;
