@@ -10,19 +10,8 @@
   justify-content: center;
   font-size: 40px;
 }
-@media screen and (max-height: 480px) {
+@media screen and (max-height: 4800px) {
   #splash-screen {
     display: none;
-  }
-}
-@media (orientation: portrait) {
-  html {
-    transform: rotate(-90deg);
-    transform-origin: top left;
-    position: absolute;
-    top: 100%;
-    left: 0;
-    width: 100vh;
-    height: 100vw;
   }
 }
