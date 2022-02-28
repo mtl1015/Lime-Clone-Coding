@@ -3,7 +3,9 @@
 @import "reset.css";
 @import "login.css";
 @import "variable.css";
-@import "main.css";
+@import "main1.css";
+@import "main2.css";
+@import "main2-1.css";
 @import "main-bar.css";
 html {
   background-color: beige;

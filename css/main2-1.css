@@ -1,0 +1,107 @@
+.main2__chatspace {
+  width: 50%;
+  height: 100vh;
+  margin-left: 50%;
+  margin-right: 0%;
+  margin-top: 8vh;
+  background-color: white;
+  position: fixed;
+  z-index: -1;
+}
+.main2__chatspace__header {
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 15px;
+  box-sizing: border-box;
+}
+.main2__chatspace__header__first span {
+  font-weight: 600;
+  font-size: 13px;
+}
+.main2__chatspace__header__first i {
+  color: rgba(0, 0, 0, 0.4);
+  margin-left: 5px;
+  font-size: 13px;
+}
+.main2__chatspace__header__second {
+  display: flex;
+  align-items: center;
+}
+.main2__chatspace__header__second i {
+  margin-left: 15px;
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 13px;
+  font-weight: 600;
+}
+.main2__chatspace__main {
+  height: 52vh;
+  border-bottom: 0.5px dotted rgba(0, 0, 0, 0.4);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main2__chatspace__main__notice1 {
+  width: 40px;
+  height: 20px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.05);
+}
+.main2__chatspace__main__notice1 span {
+  color: rgba(0, 0, 0, 0.35);
+  font-size: 11px;
+}
+.main2__chatspace__main__notice2 {
+  width: 68%;
+  height: 14vh;
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.05);
+  font-size: 12px;
+  line-height: 15px;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.2);
+}
+.main2__chatspace__chat {
+  margin-top: 10px;
+  width: 100%;
+  height: 28vh;
+  position: relative;
+}
+.main2__chatspace__chat div {
+  margin-left: 10px;
+  color: rgba(0, 0, 0, 0.2);
+  font-size: 13px;
+  font-weight: 600;
+}
+.main2__chatspace__chat__icons {
+  position: absolute;
+  bottom: 10px;
+  width: 90%;
+  left: 4px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.fa-paperclip {
+  color: rgb(0, 0, 0, 0.5);
+  font-size: 16px;
+  margin-right: 10px;
+}
+.fa-vector-square {
+  color: rgb(0, 0, 0, 0.5);
+  font-size: 16px;
+}
+.fa-face-smile {
+  color: rgb(0, 0, 0, 0.5);
+  font-size: 16px;
+}
